@@ -1,0 +1,80 @@
+html{
+    font-size: 28px;
+}
+body { 
+    background-color:rgb(15, 48, 109) ;
+    color: whitesmoke;
+}
+
+
+a {
+    color:bisque 
+
+
+
+}
+
+a:visited {
+
+    color:rgb(255, 2, 2)
+}
+
+table, tr, th, td, caption {
+        
+        border: 1px solid rgb(245, 219, 71);
+        font-family:'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;
+
+}
+
+form{
+    color:rgb(32, 5, 66) ;
+}
+
+.title{
+    color: rgb(118, 240, 61);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-variant-ligatures: common-ligatures ;
+
+}
+
+#html{
+    background-color: rgb(23, 15, 68);
+}
+
+#header {
+    background-color: rgb(14, 104, 177);
+}
+#visit {
+    background-image: url("img/boat.jpg");
+}
+.Forms {
+    width: 1800px;
+    background-image: url("img/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg");
+    background-repeat: no-repeat;
+}
+
+#button{
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border: none;
+    font-family:"Lato", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:antiquewhite;
+    background-color: rgb(4, 71, 255);
+    transition: all 500ms ease;
+}
+#button:hover{
+    background:rgb(125, 141, 53);
+    padding: 15px 25px;
+    
+}
+.img{
+    transition: all 500ms ease;
+}
+.img:hover{
+    padding: 75px 50px;
+}
